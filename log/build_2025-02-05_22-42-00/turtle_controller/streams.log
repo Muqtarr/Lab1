@@ -1,0 +1,68 @@
+[0.216s] Invoking command in '/home/mk/lab_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_controller -- -j12 -l12
+[0.254s] [35m[1mConsolidate compiler generated dependencies of target turtle_controller[0m
+[0.270s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[2.223s] /home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp: In instantiation of ‘[01m[Kvoid TurtleController::callService(std::shared_ptr<rclcpp::Client<ServiceT> >, Args ...) [with T = turtlesim::srv::Kill; Args = {const char*}][m[K’:
+[2.224s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:29:42:[m[K   required from here
+[2.224s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:40:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::Kill_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::Kill_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kset__x[m[K’
+[2.224s]    40 |         (void)std::initializer_list<int>{([01;31m[Krequest->set__x[m[K(args), 0)...};
+[2.224s]       |                                           [01;31m[K~~~~~~~~~^~~~~~[m[K
+[2.224s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:40:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::initializer_list<int>::initializer_list(<brace-enclosed initializer list>)[m[K’
+[2.224s]    40 |         [01;31m[K(void)std::initializer_list<int>{(request->set__x(args), 0)...}[m[K;
+[2.224s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.224s] In file included from [01m[K/usr/include/c++/11/utility:76[m[K,
+[2.224s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+[2.224s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.224s]                  from [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:1[m[K:
+[2.224s] [01m[K/usr/include/c++/11/initializer_list:66:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::initializer_list<_E>::initializer_list() [with _E = int][m[K’
+[2.224s]    66 |       constexpr [01;36m[Kinitializer_list[m[K() noexcept
+[2.224s]       |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.225s] [01m[K/usr/include/c++/11/initializer_list:66:17:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.225s] [01m[K/usr/include/c++/11/initializer_list:62:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::initializer_list<_E>::initializer_list(std::initializer_list<_E>::const_iterator, std::initializer_list<_E>::size_type) [with _E = int; std::initializer_list<_E>::const_iterator = const int*; std::initializer_list<_E>::size_type = long unsigned int][m[K’
+[2.225s]    62 |       constexpr [01;36m[Kinitializer_list[m[K(const_iterator __a, size_type __l)
+[2.225s]       |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.225s] [01m[K/usr/include/c++/11/initializer_list:62:17:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.225s] [01m[K/usr/include/c++/11/initializer_list:47:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::initializer_list<int>::initializer_list(const std::initializer_list<int>&)[m[K’
+[2.225s]    47 |     class [01;36m[Kinitializer_list[m[K
+[2.225s]       |           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.225s] [01m[K/usr/include/c++/11/initializer_list:47:11:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[2.225s] [01m[K/usr/include/c++/11/initializer_list:47:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::initializer_list<int>::initializer_list(std::initializer_list<int>&&)[m[K’
+[2.226s] [01m[K/usr/include/c++/11/initializer_list:47:11:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[2.228s] /home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp: In instantiation of ‘[01m[Kvoid TurtleController::callService(std::shared_ptr<rclcpp::Client<ServiceT> >, Args ...) [with T = turtlesim::srv::Spawn; Args = {const char*, double, double, double}][m[K’:
+[2.228s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:31:43:[m[K   required from here
+[2.228s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:40:59:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kconst float&[m[K’
+[2.228s]    40 |         (void)std::initializer_list<int>{(request->set__x([01;31m[Kargs[m[K), 0)...};
+[2.228s]       |                                                           [01;31m[K^~~~[m[K
+[2.229s]       |                                                           [01;31m[K|[m[K
+[2.229s]       |                                                           [01;31m[Kconst char*[m[K
+[2.229s] In file included from [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp:7[m[K,
+[2.229s]                  from [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:4[m[K:
+[2.229s] [01m[K/opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp:77:19:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kturtlesim::srv::Spawn_Request_<ContainerAllocator>::Type& turtlesim::srv::Spawn_Request_<ContainerAllocator>::set__x(const float&) [with ContainerAllocator = std::allocator<void>; turtlesim::srv::Spawn_Request_<ContainerAllocator>::Type = turtlesim::srv::Spawn_Request_<std::allocator<void> >][m[K’
+[2.229s]    77 |     [01;36m[Kconst float & _arg[m[K)
+[2.229s]       |     [01;36m[K~~~~~~~~~~~~~~^~~~[m[K
+[2.229s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:40:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::initializer_list<int>::initializer_list(<brace-enclosed initializer list>)[m[K’
+[2.229s]    40 |         [01;31m[K(void)std::initializer_list<int>{(request->set__x(args), 0)...}[m[K;
+[2.229s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.229s] In file included from [01m[K/usr/include/c++/11/utility:76[m[K,
+[2.229s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+[2.229s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.229s]                  from [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:1[m[K:
+[2.229s] [01m[K/usr/include/c++/11/initializer_list:66:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::initializer_list<_E>::initializer_list() [with _E = int][m[K’
+[2.229s]    66 |       constexpr [01;36m[Kinitializer_list[m[K() noexcept
+[2.229s]       |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.229s] [01m[K/usr/include/c++/11/initializer_list:66:17:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.229s] [01m[K/usr/include/c++/11/initializer_list:62:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::initializer_list<_E>::initializer_list(std::initializer_list<_E>::const_iterator, std::initializer_list<_E>::size_type) [with _E = int; std::initializer_list<_E>::const_iterator = const int*; std::initializer_list<_E>::size_type = long unsigned int][m[K’
+[2.230s]    62 |       constexpr [01;36m[Kinitializer_list[m[K(const_iterator __a, size_type __l)
+[2.230s]       |                 [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.230s] [01m[K/usr/include/c++/11/initializer_list:62:17:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.230s] [01m[K/usr/include/c++/11/initializer_list:47:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::initializer_list<int>::initializer_list(const std::initializer_list<int>&)[m[K’
+[2.230s]    47 |     class [01;36m[Kinitializer_list[m[K
+[2.230s]       |           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.230s] [01m[K/usr/include/c++/11/initializer_list:47:11:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[2.230s] [01m[K/usr/include/c++/11/initializer_list:47:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::initializer_list<int>::initializer_list(std::initializer_list<int>&&)[m[K’
+[2.230s] [01m[K/usr/include/c++/11/initializer_list:47:11:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[2.966s] gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+[2.966s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_controller.dir/all] Error 2
+[2.966s] gmake: *** [Makefile:146: all] Error 2
+[2.968s] Invoked command in '/home/mk/lab_ws/build/turtle_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_controller -- -j12 -l12

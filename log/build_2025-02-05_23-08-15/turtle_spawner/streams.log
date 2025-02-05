@@ -1,0 +1,22 @@
+[0.222s] Invoking command in '/home/mk/lab_ws/build/turtle_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_spawner -- -j12 -l12
+[0.270s] [100%] Built target turtle_spawn
+[0.281s] Invoked command in '/home/mk/lab_ws/build/turtle_spawner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_spawner -- -j12 -l12
+[0.304s] Invoking command in '/home/mk/lab_ws/build/turtle_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/turtle_spawner
+[0.311s] -- Install configuration: ""
+[0.311s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/lib/turtle_spawner/turtle_spawn
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/ament_index/resource_index/package_run_dependencies/turtle_spawner
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/ament_index/resource_index/parent_prefix_path/turtle_spawner
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/environment/ament_prefix_path.sh
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/environment/ament_prefix_path.dsv
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/environment/path.sh
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/environment/path.dsv
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/local_setup.bash
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/local_setup.sh
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/local_setup.zsh
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/local_setup.dsv
+[0.312s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/package.dsv
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/ament_index/resource_index/packages/turtle_spawner
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/cmake/turtle_spawnerConfig.cmake
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/cmake/turtle_spawnerConfig-version.cmake
+[0.312s] -- Up-to-date: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/package.xml
+[0.314s] Invoked command in '/home/mk/lab_ws/build/turtle_spawner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/turtle_spawner

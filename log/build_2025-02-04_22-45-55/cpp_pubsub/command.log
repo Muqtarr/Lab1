@@ -1,0 +1,6 @@
+Invoking command in '/home/mk/lab_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake /home/mk/lab_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mk/lab_ws/install/cpp_pubsub
+Invoked command in '/home/mk/lab_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake /home/mk/lab_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mk/lab_ws/install/cpp_pubsub
+Invoking command in '/home/mk/lab_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/cpp_pubsub -- -j12 -l12
+Invoked command in '/home/mk/lab_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/cpp_pubsub -- -j12 -l12
+Invoking command in '/home/mk/lab_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/cpp_pubsub
+Invoked command in '/home/mk/lab_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/cpp_pubsub

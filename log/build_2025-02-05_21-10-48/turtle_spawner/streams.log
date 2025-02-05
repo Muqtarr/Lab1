@@ -1,0 +1,49 @@
+[0.210s] Invoking command in '/home/mk/lab_ws/build/turtle_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake /home/mk/lab_ws/src/turtle_spawner -DCMAKE_INSTALL_PREFIX=/home/mk/lab_ws/install/turtle_spawner
+[0.219s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.316s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.337s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.339s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.343s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.379s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.380s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.466s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.499s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.524s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.572s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.572s] -- Configured cppcheck include dirs: 
+[0.572s] -- Configured cppcheck exclude dirs and/or files: 
+[0.572s] -- Added test 'lint_cmake' to check CMake code style
+[0.573s] -- Added test 'uncrustify' to check C / C++ code style
+[0.573s] -- Configured uncrustify additional arguments: 
+[0.573s] -- Added test 'xmllint' to check XML markup files
+[0.574s] -- Configuring done
+[0.581s] -- Generating done
+[0.582s] -- Build files have been written to: /home/mk/lab_ws/build/turtle_spawner
+[0.590s] Invoked command in '/home/mk/lab_ws/build/turtle_spawner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake /home/mk/lab_ws/src/turtle_spawner -DCMAKE_INSTALL_PREFIX=/home/mk/lab_ws/install/turtle_spawner
+[0.591s] Invoking command in '/home/mk/lab_ws/build/turtle_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_spawner -- -j12 -l12
+[0.633s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_spawn.dir/src/turtle_spawner.cpp.o[0m
+[3.140s] [100%] [32m[1mLinking CXX executable turtle_spawn[0m
+[3.265s] [100%] Built target turtle_spawn
+[3.275s] Invoked command in '/home/mk/lab_ws/build/turtle_spawner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_spawner -- -j12 -l12
+[3.297s] Invoking command in '/home/mk/lab_ws/build/turtle_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/turtle_spawner
+[3.304s] -- Install configuration: ""
+[3.304s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/lib/turtle_spawner/turtle_spawn
+[3.304s] -- Set runtime path of "/home/mk/lab_ws/install/turtle_spawner/lib/turtle_spawner/turtle_spawn" to ""
+[3.305s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/ament_index/resource_index/package_run_dependencies/turtle_spawner
+[3.305s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/ament_index/resource_index/parent_prefix_path/turtle_spawner
+[3.305s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/environment/ament_prefix_path.sh
+[3.305s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/environment/ament_prefix_path.dsv
+[3.305s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/environment/path.sh
+[3.305s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/environment/path.dsv
+[3.305s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/local_setup.bash
+[3.305s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/local_setup.sh
+[3.306s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/local_setup.zsh
+[3.306s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/local_setup.dsv
+[3.306s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/package.dsv
+[3.306s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/ament_index/resource_index/packages/turtle_spawner
+[3.306s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/cmake/turtle_spawnerConfig.cmake
+[3.306s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/cmake/turtle_spawnerConfig-version.cmake
+[3.306s] -- Installing: /home/mk/lab_ws/install/turtle_spawner/share/turtle_spawner/package.xml
+[3.308s] Invoked command in '/home/mk/lab_ws/build/turtle_spawner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/turtle_spawner

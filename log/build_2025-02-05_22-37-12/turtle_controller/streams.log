@@ -1,0 +1,26 @@
+[0.216s] Invoking command in '/home/mk/lab_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_controller -- -j12 -l12
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target turtle_controller[0m
+[0.267s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[7.388s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[7.724s] [100%] Built target turtle_controller
+[7.734s] Invoked command in '/home/mk/lab_ws/build/turtle_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_controller -- -j12 -l12
+[7.756s] Invoking command in '/home/mk/lab_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/turtle_controller
+[7.762s] -- Install configuration: ""
+[7.762s] -- Installing: /home/mk/lab_ws/install/turtle_controller/lib/turtle_controller/turtle_controller
+[7.767s] -- Set runtime path of "/home/mk/lab_ws/install/turtle_controller/lib/turtle_controller/turtle_controller" to ""
+[7.767s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/ament_index/resource_index/package_run_dependencies/turtle_controller
+[7.767s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/ament_index/resource_index/parent_prefix_path/turtle_controller
+[7.767s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.sh
+[7.767s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.dsv
+[7.767s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/environment/path.sh
+[7.768s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/environment/path.dsv
+[7.768s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/local_setup.bash
+[7.768s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/local_setup.sh
+[7.768s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/local_setup.zsh
+[7.768s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/local_setup.dsv
+[7.768s] -- Installing: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/package.dsv
+[7.768s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/ament_index/resource_index/packages/turtle_controller
+[7.768s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig.cmake
+[7.768s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig-version.cmake
+[7.768s] -- Up-to-date: /home/mk/lab_ws/install/turtle_controller/share/turtle_controller/package.xml
+[7.769s] Invoked command in '/home/mk/lab_ws/build/turtle_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/turtle_controller

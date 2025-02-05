@@ -1,0 +1,4 @@
+Invoking command in '/home/mk/lab_ws/build/turtle_spawner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_spawner -- -j12 -l12
+Invoked command in '/home/mk/lab_ws/build/turtle_spawner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_spawner -- -j12 -l12
+Invoking command in '/home/mk/lab_ws/build/turtle_spawner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/turtle_spawner
+Invoked command in '/home/mk/lab_ws/build/turtle_spawner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mk/lab_ws/build/turtle_spawner

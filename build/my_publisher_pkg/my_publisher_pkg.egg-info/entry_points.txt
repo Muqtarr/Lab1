@@ -1,0 +1,6 @@
+[console_scripts]
+move_turtle = my_publisher_pkg.move_turtle:main
+my_publisher = my_publisher_pkg.my_publisher:main
+pose_subscriber = my_publisher_pkg.pose_subscriber:main
+turtle_controller = my_publisher_pkg.turtle_controller:main
+

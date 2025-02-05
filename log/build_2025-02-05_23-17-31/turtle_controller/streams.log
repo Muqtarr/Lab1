@@ -1,0 +1,104 @@
+[0.217s] Invoking command in '/home/mk/lab_ws/build/turtle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_controller -- -j12 -l12
+[0.258s] [35m[1mConsolidate compiler generated dependencies of target turtle_controller[0m
+[0.271s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[2.192s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:44:56:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[2.192s]    44 |     void call_service(const std::string& service_name, [01;35m[Kauto[m[K&&... args) {
+[2.192s]       |                                                        [01;35m[K^~~~[m[K
+[2.198s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::call_service(const string&, auto:40&& ...)[m[K’:
+[2.198s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:50:39:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[2.198s]    50 |         if (!client->wait_for_service([01;31m[K2s[m[K)) {
+[2.198s]       |                                       [01;31m[K^~[m[K
+[2.200s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::execute_trajectories()[m[K’:
+[2.200s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:60:68:[m[K [01;31m[Kerror: [m[Kclass template argument deduction failed:
+[2.200s]    60 |                                              {1.0, 4.0}, {1.0, 1.0}[01;31m[K}[m[K;
+[2.200s]       |                                                                    [01;31m[K^[m[K
+[2.201s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:60:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Karray(std::pair<double, double>, <brace-enclosed initializer list>, <brace-enclosed initializer list>, <brace-enclosed initializer list>)[m[K’
+[2.201s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.201s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.201s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.201s]                  from [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:1[m[K:
+[2.201s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> array()-> std::array<_Tp, _Nm>[m[K’
+[2.201s]    95 |     struct [01;36m[Karray[m[K
+[2.201s]       |            [01;36m[K^~~~~[m[K
+[2.201s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.201s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:60:68:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[2.201s]    60 |                                              {1.0, 4.0}, {1.0, 1.0}[01;36m[K}[m[K;
+[2.201s]       |                                                                    [01;36m[K^[m[K
+[2.201s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.201s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.201s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.201s]                  from [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:1[m[K:
+[2.201s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> array(std::array<_Tp, _Nm>)-> std::array<_Tp, _Nm>[m[K’
+[2.201s]    95 |     struct [01;36m[Karray[m[K
+[2.202s]       |            [01;36m[K^~~~~[m[K
+[2.202s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.202s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:60:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pair<double, double>[m[K’ is not derived from ‘[01m[Kstd::array<_Tp, _Nm>[m[K’
+[2.202s]    60 |                                              {1.0, 4.0}, {1.0, 1.0}[01;36m[K}[m[K;
+[2.202s]       |                                                                    [01;36m[K^[m[K
+[2.202s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.202s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.202s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.202s]                  from [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:1[m[K:
+[2.202s] [01m[K/usr/include/c++/11/array:267:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::array(_Tp, _Up ...)-> std::array<typename std::enable_if<(is_same_v<_Tp, _Up> && ...), _Tp>::type, (1 + sizeof... (_Up))> [with _Tp = std::pair<double, double>; _Up = {}; typename std::enable_if<(is_same_v<_Tp, _Up> && ...), _Tp>::type = std::pair<double, double>][m[K’
+[2.202s]   267 |     [01;36m[Karray[m[K(_Tp, _Up...)
+[2.202s]       |     [01;36m[K^~~~~[m[K
+[2.202s] [01m[K/usr/include/c++/11/array:267:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[2.202s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:66:92:[m[K [01;31m[Kerror: [m[Kclass template argument deduction failed:
+[2.202s]    66 |         constexpr std::array triangle_points = {std::pair(4.0, 1.0), {3.0, 4.0}, {1.0, 1.0}[01;31m[K}[m[K;
+[2.202s]       |                                                                                            [01;31m[K^[m[K
+[2.202s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:66:92:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Karray(std::pair<double, double>, <brace-enclosed initializer list>, <brace-enclosed initializer list>)[m[K’
+[2.202s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.202s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.202s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.202s]                  from [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:1[m[K:
+[2.202s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> array()-> std::array<_Tp, _Nm>[m[K’
+[2.202s]    95 |     struct [01;36m[Karray[m[K
+[2.202s]       |            [01;36m[K^~~~~[m[K
+[2.203s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.203s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:66:92:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[2.203s]    66 |         constexpr std::array triangle_points = {std::pair(4.0, 1.0), {3.0, 4.0}, {1.0, 1.0}[01;36m[K}[m[K;
+[2.203s]       |                                                                                            [01;36m[K^[m[K
+[2.203s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.203s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.203s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.203s]                  from [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:1[m[K:
+[2.203s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> array(std::array<_Tp, _Nm>)-> std::array<_Tp, _Nm>[m[K’
+[2.203s]    95 |     struct [01;36m[Karray[m[K
+[2.203s]       |            [01;36m[K^~~~~[m[K
+[2.203s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.203s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:66:92:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pair<double, double>[m[K’ is not derived from ‘[01m[Kstd::array<_Tp, _Nm>[m[K’
+[2.203s]    66 |         constexpr std::array triangle_points = {std::pair(4.0, 1.0), {3.0, 4.0}, {1.0, 1.0}[01;36m[K}[m[K;
+[2.203s]       |                                                                                            [01;36m[K^[m[K
+[2.203s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[2.203s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[2.203s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.203s]                  from [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:1[m[K:
+[2.203s] [01m[K/usr/include/c++/11/array:267:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::array(_Tp, _Up ...)-> std::array<typename std::enable_if<(is_same_v<_Tp, _Up> && ...), _Tp>::type, (1 + sizeof... (_Up))> [with _Tp = std::pair<double, double>; _Up = {}; typename std::enable_if<(is_same_v<_Tp, _Up> && ...), _Tp>::type = std::pair<double, double>][m[K’
+[2.203s]   267 |     [01;36m[Karray[m[K(_Tp, _Up...)
+[2.203s]       |     [01;36m[K^~~~~[m[K
+[2.203s] [01m[K/usr/include/c++/11/array:267:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[2.275s] /home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp: In instantiation of ‘[01m[Kvoid TurtleController::call_service(const string&, auto:40&& ...) [with T = turtlesim::srv::Kill; auto:40 = {const char (&)[8]}; std::string = std::__cxx11::basic_string<char>][m[K’:
+[2.275s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:36:43:[m[K   required from here
+[2.275s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:48:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::Kill_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::Kill_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+[2.275s]    48 |         (([01;31m[Krequest->x[m[K = args), ...);     // For Spawn/Teleport services
+[2.275s]       |           [01;31m[K~~~~~~~~~^[m[K
+[2.277s] /home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp: In instantiation of ‘[01m[Kvoid TurtleController::call_service(const string&, auto:40&& ...) [with T = turtlesim::srv::Spawn; auto:40 = {double, double, double, const char (&)[16]}; std::string = std::__cxx11::basic_string<char>][m[K’:
+[2.277s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:37:44:[m[K   required from here
+[2.277s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:48:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char [16][m[K’ to ‘[01m[Kturtlesim::srv::Spawn_Request_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+[2.277s]    48 |         ([01;31m[K(request->x = args)[m[K, ...);     // For Spawn/Teleport services
+[2.277s]       |          [01;31m[K~~~~~~~~~~~~^~~~~~~[m[K
+[2.278s] /home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp: In instantiation of ‘[01m[Kvoid TurtleController::call_service(const string&, auto:40&& ...) [with T = turtlesim::srv::TeleportAbsolute; auto:40 = {double, double, double}; std::string = std::__cxx11::basic_string<char>][m[K’:
+[2.278s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:38:55:[m[K   required from here
+[2.278s] [01m[K/home/mk/lab_ws/src/turtle_controller/src/turtle_controller.cpp:47:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kname[m[K’
+[2.278s]    47 |         (([01;31m[Krequest->name[m[K = args), ...);  // For Kill service
+[2.278s]       |           [01;31m[K~~~~~~~~~^~~~[m[K
+[4.327s] gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+[4.327s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_controller.dir/all] Error 2
+[4.327s] gmake: *** [Makefile:146: all] Error 2
+[4.329s] Invoked command in '/home/mk/lab_ws/build/turtle_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mk/lab_ws/build/turtle_controller -- -j12 -l12

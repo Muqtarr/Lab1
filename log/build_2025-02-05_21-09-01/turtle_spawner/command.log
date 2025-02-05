@@ -1,0 +1,2 @@
+Invoking command in '/home/mk/lab_ws/build/turtle_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake /home/mk/lab_ws/src/turtle_spawner -DCMAKE_INSTALL_PREFIX=/home/mk/lab_ws/install/turtle_spawner
+Invoked command in '/home/mk/lab_ws/build/turtle_spawner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake /home/mk/lab_ws/src/turtle_spawner -DCMAKE_INSTALL_PREFIX=/home/mk/lab_ws/install/turtle_spawner

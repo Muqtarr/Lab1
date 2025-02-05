@@ -1,0 +1,25 @@
+[0.358s] Invoking command in '/home/mk/lab_ws/build/turtle_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake /home/mk/lab_ws/src/turtle_spawner -DCMAKE_INSTALL_PREFIX=/home/mk/lab_ws/install/turtle_spawner
+[0.433s] -- The C compiler identification is GNU 11.4.0
+[0.496s] -- The CXX compiler identification is GNU 11.4.0
+[0.505s] -- Detecting C compiler ABI info
+[0.571s] -- Detecting C compiler ABI info - done
+[0.576s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.577s] -- Detecting C compile features
+[0.577s] -- Detecting C compile features - done
+[0.580s] -- Detecting CXX compiler ABI info
+[0.656s] -- Detecting CXX compiler ABI info - done
+[0.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.662s] -- Detecting CXX compile features
+[0.662s] -- Detecting CXX compile features - done
+[0.665s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.786s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.870s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.870s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.870s]   before
+[0.870s] Call Stack (most recent call first):
+[0.870s]   CMakeLists.txt:15 (ament_target_dependencies)
+[0.870s] 
+[0.870s] [0m
+[0.870s] -- Configuring incomplete, errors occurred!
+[0.870s] See also "/home/mk/lab_ws/build/turtle_spawner/CMakeFiles/CMakeOutput.log".
+[0.875s] Invoked command in '/home/mk/lab_ws/build/turtle_spawner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mk/lab_ws/install/my_publisher_pkg:/opt/ros/humble /usr/bin/cmake /home/mk/lab_ws/src/turtle_spawner -DCMAKE_INSTALL_PREFIX=/home/mk/lab_ws/install/turtle_spawner
